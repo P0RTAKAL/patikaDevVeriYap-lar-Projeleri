@@ -108,3 +108,35 @@ O(n * logn)
 
 ==================================================================================================
 ==================================================================================================
+
+
+
+Binary Search Tree Projesi
+
+==========================
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+
+1. Array sıralı hale getirilir.
+
+[0,1,2,3,4,5,6,7,8,9]
+
+
+2. Ortanca eleman (root) seçilir. => 5
+
+
+3. Ortanca Elemandan büyük ve küçük olmak üzere root'un soluna küçükler sağına büyükler gelecek şekilde iki dizi elde edildi.
+
+
+4. Alt dizilerki ortanca değerler (rootlar) seçilir. Sol Root => 2, Sağ Root => 8
+
+
+5. Aynı şekilde işlemler elemanlar tek olana kadar devam eder.
+
+
+Array hali  => [5,2,8,1,4,7,9,0,null,3,null,6]
+
+<img width="584" alt="Erinç Güngör Binary Search Tree" src="https://user-images.githubusercontent.com/77126143/186660269-f95b7f68-2663-4fcd-b855-0ddfa69fad42.png">
